@@ -66,7 +66,8 @@ testlog:
 	tail /run/user/1000/speech-dispatcher/log/espeak-generic.log 
 testespeak:
 	spd-say -o espeak-mbrola-generic -l ar  "السلام عليكم"
-
+publish:
+	git push origin master
 
 
 
