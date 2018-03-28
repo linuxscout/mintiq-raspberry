@@ -1,0 +1,24 @@
+Readme
+1- After Installing Mbrola by 
+    /usr/share/install-mbrola/install-mbrola\@ar_DZ.UTF-8 
+
+2- Install mishkal by
+   make mishkal
+
+This will install mishkal arabic diacritizer , you can test it with espeak and mbrola as pipe
+make test-mishkal
+
+or indivulaly by
+make test-espeak-mishkal
+and 
+make test-mbrola-mishkal
+
+3- Configure Speeach-dispatcher
+make dispatcher
+4- tests:
+ make test-disp
+
+or individualy like
+make test-disp-espeak
+or make test-disp-mbrola
+
